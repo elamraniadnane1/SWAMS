@@ -16,11 +16,44 @@ mkdir components
 mkdir pages
 mkdir public
 mkdir styles
+
+cd components
+type nul > Header.js
+type nul > Footer.js
+type nul > Sidebar.js
+cd ..
+
+cd pages
+type nul > index.js
+type nul > dashboard.js
+cd ..
+
+cd public
+type nul > favicon.ico
+cd ..
+
+cd styles
+type nul > global.css
+cd ..
+
 cd ..
 cd mobile-app
 mkdir android
 mkdir ios
 mkdir shared
+
+cd android
+type nul > MainActivity.java
+cd ..
+
+cd ios
+type nul > AppDelegate.swift
+cd ..
+
+cd shared
+type nul > utils.js
+cd ..
+
 cd ..
 cd ..
 
@@ -30,6 +63,20 @@ cd frontend-services
 mkdir i18n-service
 mkdir ui-components
 mkdir map-renderer
+
+cd i18n-service
+type nul > i18n.js
+cd ..
+
+cd ui-components
+type nul > Button.js
+type nul > Modal.js
+cd ..
+
+cd map-renderer
+type nul > MapView.js
+cd ..
+
 cd ..
 
 REM Create Business Logic Layer directories
@@ -38,6 +85,15 @@ mkdir api-gateway
 cd api-gateway
 mkdir nginx-config
 mkdir jwt-auth
+
+cd nginx-config
+type nul > default.conf
+cd ..
+
+cd jwt-auth
+type nul > auth.js
+cd ..
+
 cd ..
 
 REM Create Core Services directories
@@ -48,12 +104,36 @@ mkdir water-management
 mkdir analytics-engine
 mkdir task-manager
 mkdir notification-hub
+
+cd user-service
+type nul > user.service.js
+cd ..
+
+cd water-management
+type nul > water.service.js
+cd ..
+
+cd analytics-engine
+type nul > analytics.js
+cd ..
+
+cd task-manager
+type nul > tasks.js
+cd ..
+
+cd notification-hub
+type nul > notifications.js
+cd ..
+
 cd ..
 
 REM Create Message Queue directory
 mkdir message-queue
 cd message-queue
 mkdir rabbitmq-config
+cd rabbitmq-config
+type nul > rabbitmq.conf
+cd ..
 cd ..
 
 REM Create Data Layer directories
@@ -136,14 +216,34 @@ cd media-storage
 mkdir images
 mkdir documents
 mkdir backups
+
+cd images
+type nul > placeholder.txt
+cd ..
+
+cd documents
+type nul > placeholder.txt
+cd ..
+
+cd backups
+type nul > placeholder.txt
+cd ..
+
 cd ..
 cd ..
 
 REM CDN and Cache
 mkdir cdn-cache
+cd cdn-cache
+type nul > cdn-config.json
+cd ..
+
 mkdir cache-layer
 cd cache-layer
 mkdir redis-config
+cd redis-config
+type nul > redis.conf
+cd ..
 cd ..
 cd ..
 
@@ -153,6 +253,14 @@ mkdir external-integrations
 cd external-integrations
 mkdir external-apis
 mkdir iot-gateway
+
+cd external-apis
+type nul > api-integration.js
+cd ..
+
+cd iot-gateway
+type nul > iot-gateway.js
+cd ..
 cd ..
 
 REM Create External Service Layer directories
@@ -162,6 +270,22 @@ mkdir dashboard-interface
 mkdir gis-interface
 mkdir local-gis-service
 mkdir google-maps-integration
+
+cd dashboard-interface
+type nul > dashboard.js
+cd ..
+
+cd gis-interface
+type nul > gis.js
+cd ..
+
+cd local-gis-service
+type nul > local-gis.js
+cd ..
+
+cd google-maps-integration
+type nul > google-maps.js
+cd ..
 cd ..
 
 REM Create Documentation directory
