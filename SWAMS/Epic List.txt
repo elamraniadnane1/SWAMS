@@ -1,0 +1,39 @@
+List of Epics:
+1: As a non-english speaking user, i want to be able to receive vocal notifications about my
+assigned tasks.
+2: As an AUI resident, i want to be able to take pictures in order to report real-time problems.
+3: As a GM executive, i want to be able to see gathered data from multiple sources in my
+dashboard.
+4: As a GM executive, i want to be able to monitor water consumption accross all campus.
+5: As a user, i want to be able to authenticate to access the application.
+6: As a GM department Staff member , I want to receive training and support, so I can
+effectively use SWAMS to manage water resources.
+7: As a GM department Staff member, I want to be able to manage user access and permissions,
+so I can control who can view and edit water consumption data.
+8: As a GM department Staff member , I want to be able to set water consumption targets and
+alerts, so I can ensure efficient use of water resources.
+9: As a GM department Staff member, I want to be able to view historical water consumption
+data, so I can analyze trends and patterns.
+10: As a GM staff member, I want to be able to view the current water consumption status
+displayed on a map of the university.
+11: As a GM department staff member, I want to be able to integrate SWAMS with external
+systems (e.g., weather data), so I can make more informed water management decisions based on
+environmental conditions.
+12: As a GM department staff member, I want to access SWAMS on mobile devices, so I can
+monitor and manage water resources from anywhere on campus.
+13: As a GM executive, I want to receive periodic summary reports on water usage, so I can
+review performance and track progress against sustainability goals.
+14: As a maintenance staff member, I want to receive automated maintenance reminders, so I can
+ensure timely maintenance of water management systems.
+15: As a GM department staff member, I want to assign tasks to specific teams or individuals, so
+I can streamline the water resource management process.
+16: As a GM executive, I want to have access to predictive analytics in SWAMS, so I can
+anticipate water shortages and plan for conservation efforts accordingly.
+17: As a GM department staff member, I want to be able to set different permission levels for
+water consumption data, so I can control data visibility and access for various teams.
+18: As an AUI resident, I want to view real-time water consumption on the SWAMS app, so I
+can better understand how much water is being used on campus.
+19: As a GM department staff member, I want to receive alerts when water consumption exceeds
+a specific threshold, so I can take immediate action to reduce wastage.
+20: As a user, I want the ability to provide feedback directly within the app, so I can contribute
+suggestions or report issues with the SWAMS system.
